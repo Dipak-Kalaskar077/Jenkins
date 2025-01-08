@@ -1,0 +1,8 @@
+#Requirements :- Instance must be t2.medium or t2.large
+
+sudo -i
+sudo apt-get update
+apt-get install docker.io
+docker run -itd --name SonarQube -p 9000:9000 sonarqube:lts-community
+
+#Add port no 9000 to security group and access it
