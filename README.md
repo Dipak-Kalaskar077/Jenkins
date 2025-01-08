@@ -1,4 +1,4 @@
-# Jenkins
+# Jenkins Installation Script
 
 sudo apt-get update
 
