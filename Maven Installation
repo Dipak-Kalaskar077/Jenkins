@@ -1,0 +1,13 @@
+# Maven Installation
+
+sudo apt-get update
+sudo apt-get install Maven
+
+# Clone the student.ui repo in /opt folder
+
+cd student.ui
+
+# Check for POM.xml file and run
+
+mvn package 
+
