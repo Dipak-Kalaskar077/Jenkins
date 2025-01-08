@@ -20,3 +20,9 @@ sudo apt-get install jenkins -y
 cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
+# Required Plugins for jenkins
+
+1) Git
+2) Pipeline Stage view
+3) Sonarqube Scanner
+4) Sonarqube Quality gate
